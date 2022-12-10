@@ -1,0 +1,8 @@
+01:44:11 **** Clean-only build of configuration Hardware for project add_kernels ****
+make -j8 clean 
+rm -f build/krnl_vadd.xo .mdb,build/krnl_vadd.o 
+rm -rf build
+rm -rf .Xil
+
+01:44:12 Build Finished (took 688ms)
+

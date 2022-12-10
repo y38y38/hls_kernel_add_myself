@@ -1,0 +1,9 @@
+01:44:14 **** Clean-only build of configuration Hardware for project add_system_hw_link ****
+make clean 
+rm -f binary_container_1.xclbin binary_container_1.mdb 
+rm -f *.xclbin.sh *.xclbin.info *.xclbin.link_summary*
+rm -rf binary_container_1.build
+rm -rf .Xil
+
+01:44:15 Build Finished (took 782ms)
+

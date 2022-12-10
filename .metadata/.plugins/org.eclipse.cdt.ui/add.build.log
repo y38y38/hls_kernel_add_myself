@@ -1,0 +1,6 @@
+01:44:10 **** Clean-only build of configuration Hardware for project add ****
+make -j8 clean 
+rm -f add src/vadd.o
+
+01:44:11 Build Finished (took 697ms)
+

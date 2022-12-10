@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hostApp:AcceleratedHostProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hostApp="http://www.xilinx.com/acceleration/hostApplication" name="add" location="/home/y/work/kv260/2022.1/WorkSpace/add7/add" platform="/home/y/work/kv260/2022.1/WorkSpace/kv260_vitis_platform/kv260_custom/export/kv260_custom/kv260_custom.xpfm" platformUID="xilinx:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector:kv260_hardware_platform:0.0(custom)" systemProject="add_system" sysConfig="kv260_custom" cpu="linux_domain" cpuInstance="cortex-a53" os="linux" flow="EMBEDDED_ACCELERATION">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.sw_emu.aarch64.1697048014" dirty="true">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions"/>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hw_emu.aarch64.902200819" dirty="true">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw_emu"/>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hw.aarch64.858308562">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw"/>
+    <lastBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw"/>
+  </configuration>
+</hostApp:AcceleratedHostProject>
